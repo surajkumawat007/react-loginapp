@@ -7,7 +7,8 @@ con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "react_login"
+    database: "react_login",
+    port: 3307,
   });
   
   con.connect(function(err) {
